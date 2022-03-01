@@ -1,0 +1,12 @@
+{	name = "Create Drafts from Template";
+	uuid = "C821772A-B147-4200-A8F4-BE22EB631F53";
+	// environment = "MM_FROM_NAME=${from.name:${from.address}}\n"; // Setup 1 or more environment variables using a format string. 
+	input = "canonical"; // Options are: none, raw, decoded, canonical, html, selection, formatted
+	output = "actions"; // Options are: discard, actions
+	// executionMode = "singleMessage"; // Options are: noMessages, singleMessage, multipleMessages
+	script = '#!/bin/bash\n"${MM_BUNDLE_SUPPORT}/bin/helper.py"';
+	// keyEquivalent = "^o"; // Keyboard shortcut
+	// conditions = "list-id exists"; // Can be used to ensure that a command only applies to certain types of messages.
+	// Other options are formatString, separatorString, suffixString, filesPattern, saveForEditing, ...
+}
+

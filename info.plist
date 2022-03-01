@@ -1,0 +1,6 @@
+{	"contactEmailRot13" = "zvpunry.ebuf@upv.hav-unaabire.qr";
+	contactName = "Michael Rohs";
+	description = "Creating drafts from a template by replacing variables with values.";
+	name = "Drafts Template";
+	uuid = "EB9971F1-96AD-4D08-B380-A455DF33036A";
+}
