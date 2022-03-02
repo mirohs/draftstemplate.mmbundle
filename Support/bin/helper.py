@@ -29,10 +29,15 @@ with open(path + 'variables.txt', newline='') as csvfile:
     header = next(r)
     log(header)
     for row in r:
-        kv = {}
-        for i in range(len(row)):
-            kv[header[i]] = row[i]
-        variables.append(kv)
+        log(row)
+        if len(row) > 0 and not row[0].startswith("#"):
+                kv = {}
+                for i in range(len(header)):
+                    if i < len(row):
+                        kv[header[i]] = row[i]
+                    else:
+                        kv[header[i]] = "?"
+                variables.append(kv)
 log(variables)
 
 actions = {
