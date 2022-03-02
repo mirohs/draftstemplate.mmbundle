@@ -1,3 +1,3 @@
-firstname	to
-Adam	adam@foo.com
-Eve	eve@bar.org
+firstname	to	number
+Adam	adam@foo.com	42
+Eve	eve@bar.org	17
