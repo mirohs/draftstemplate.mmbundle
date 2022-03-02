@@ -39,7 +39,7 @@ Template*. The resulting emails will be stored in the `Drafts` folder.
 This generates two draft emails:
 
 ```
-To:	adam@foo.com
+To: adam@foo.com
 
 Hi Adam,
 
@@ -53,7 +53,7 @@ Michael
 and
 
 ```
-To:	eve@bar.org
+To: eve@bar.org
 
 Hi Eve,
 
